@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuItem from './MenuItem';
 
-const MenuSection = ({ title, items }) => {
+const MenuSection = ({ title, items = [] }) => {
   return (
     <div name={title} className="my-8 px-4">
       <h2 className="text-3xl font-bold mb-4">{title}</h2>
