@@ -3,7 +3,7 @@ import FeaturedRoll from './FeaturedRoll';
 
 const HomePage = ({ featuredRolls }) => {
   return (
-    <div className="container mx-auto p-8">
+    <div className="w-full h-screen mx-auto p-8">
       <section className="mb-8">
         <h2 className="text-2xl font-bold">About Our Restaurant</h2>
         <p>
