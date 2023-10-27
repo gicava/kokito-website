@@ -38,7 +38,7 @@ const App = () => {
           <MenuSection title="Meals" items={menuData.Meals} />
           <EntreeAndSidesSection title="Entrees" items={menuData.Entrees} />
           <EntreeAndSidesSection title="Sides" items={menuData.Sides} />
-          <MenuSection title="Sushi Rolls" items={menuData.sushi} />
+          <MenuSection title="Sushi Rolls" items={menuData.SushiRolls} />
           {/* {Object.entries(menuData).map(([section, items], index) => (
             <MenuSection key={index} title={section} items={items} />
           ))} */}
