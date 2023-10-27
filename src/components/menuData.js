@@ -14,6 +14,7 @@ import SweetSourShrimp from '../assets/chinesefood/sweet and sour shrimp.jpg'
 import SesameChicken from '../assets/chinesefood/sesame chicken.JPG'
 import SweetSourChicken from '../assets/chinesefood/sweet and sour chicken.JPG'
 import GeneralTsoShrimp from '../assets/chinesefood/general tso shrimp.jpg'
+// Sushi Rolls
 import FriedRice from '../assets/chinesefood/fried rice.jpg'
 import SteamedRice from '../assets/chinesefood/steamed rice.jpg'
 import EggNoodle from "../assets/chinesefood/noodles.jpg"
@@ -39,7 +40,13 @@ import YariRoll from "../assets/sushi-pics/yari roll.JPG"
 import EsmerRoll from "../assets/sushi-pics/esmer roll.JPG"
 import CaterpillarRoll from "../assets/sushi-pics/caterpillar roll.JPG"
 import DragonRoll from "../assets/sushi-pics/dragon roll.JPEG"
-
+// Fried Rolls
+import TierraRoll from '../assets/sushi-pics/tierra roll.JPG'
+import FijiRoll from '../assets/sushi-pics/fiji-roll.png'
+// Riceless Rolls
+import AcapulcoRoll from '../assets/sushi-pics/acapulco roll.jpg'
+import MaresRoll from '../assets/sushi-pics/mares roll.JPEG'
+import NilaRoll from '../assets/sushi-pics/nila roll.JPG'
 //
 
 
@@ -179,142 +186,178 @@ const menuData = {
   SushiRolls: [
     { 
       name: "Torched Salmon Roll ", 
-      description: "", 
-      price: 1,
+      description: "Fried crab, cream cheese, avocado, asparagus, tempura flakes, crispy onions, and torched salmon on top", 
+      price: 10,
       image: TorchedSalmonRoll
     },
     { 
       name: "Lobster Roll", 
-      description: "", 
-      price: 1,
+      description: "Fried lobster, spicy crab, masago, avocado, lettuce, carrots", 
+      price: 16,
       image: LobsterRoll
     },
     { 
       name: "Mango Habanero Roll", 
-      description: "", 
-      price: 1,
+      description: "Fried shrimp, cream cheese, avocado, spicy mango on top", 
+      price: 9,
       image: MangoHabaneroRoll
     },
     { 
       name: "Kokito Roll", 
-      description: "", 
-      price: 1,
+      description: "Fried shrimp, cream cheese, avocado, spicy crab, eel sauce, tempura, coconut flakes", 
+      price: 9,
       image: KokitoRoll
     },
     { 
       name: "Milly Roll", 
-      description: "", 
-      price: 1,
+      description: "Crab, avocado, cucumber, salmon on top", 
+      price: 9,
       image: MillyRoll
     },
     { 
       name: "Calamari Roll", 
-      description: "", 
-      price: 1,
+      description: "Fried shrimp, cream cheese, avocado, cucumber, chopped calamari", 
+      price: 9,
       image: CalamariRoll
     },
     { 
       name: "Philadelphia Roll", 
-      description: "", 
-      price: 1,
+      description: "Salmon, avocado, cream cheese, cucumber, sesame seed", 
+      price: 6.50,
       image: PhiladelphiaRoll
     },
     { 
       name: "Ceasarin Roll", 
-      description: "", 
-      price: 1,
+      description: "Crab, avocado, cucumber, cream cheese, spicy salmon, spicy mayo", 
+      price: 9,
       image: CeasarinRoll
     },
     { 
       name: "Masago Roll", 
-      description: "", 
-      price: 1,
+      description: "Crab, avocado, cucumber, cream cheese, masago on top", 
+      price: 7.50,
       image: MasagoRoll
     },
     { 
       name: "Special Rubi Roll", 
-      description: "", 
-      price: 1,
+      description: "Fried shrimp, avocado, cream cheese, eel sauce, spicy mayo, crab and tempura flakes on top", 
+      price: 9,
       image: SpecialRubiRoll
     },
     { 
       name: "Fried Chicken Roll", 
-      description: "", 
-      price: 1,
+      description: "Chicken tempura, cheam cheese, avocado, tempura crunch, spicy mayo", 
+      price: 7,
       image: FriedChickenRoll
     },
     { 
       name: "Guay Spicy Roll", 
-      description: "", 
-      price: 1,
+      description: "Salmon, tuna, avocado, cucumber, lettuce, carrots, masago, spicy sauce", 
+      price: 10,
       image: GuaySpicyRoll
     },
     { 
       name: "California Roll", 
-      description: "", 
-      price: 1,
+      description: "Crab, avocado, cucumber, sesame seed", 
+      price: 5.50,
       image: CaliforniaRoll
     },
     { 
       name: "Flaming Hot Roll", 
-      description: "", 
-      price: 1,
+      description: "Shrimp tempura, cream cheese, avocado, Hot cheetos, spicy mayo, eel sauce", 
+      price: 9,
       image: FlamingHotRoll
     },
     { 
       name: "Rainbow Roll", 
-      description: "", 
-      price: 1,
+      description: "Crab, avocado, cucumber, salmon, tuna, masago", 
+      price: 10,
       image: RainbowRoll
     },
     { 
       name: "Sensei Roll", 
-      description: "", 
-      price: 1,
+      description: "Fried shrimp, avocado, cream cheese, salmon, jalapeno, spicy mayo", 
+      price: 9,
       image: SenseiRoll
     },
     { 
       name: "Veggie Roll", 
-      description: "", 
-      price: 1,
+      description: "Soy paper, avocado, cucumber, carrots, cream cheese, green onions, bell pepper, sesame seeds", 
+      price: 7,
       image: 'no image'
     },
     { 
       name: "Spicy Tuna Roll", 
-      description: "", 
-      price: 1,
+      description: "Spicy Tuna, avocado, cucumber, chili powder", 
+      price: 7.50,
       image: SpicyTunaRoll
     },
     { 
       name: "Yari Roll", 
-      description: "", 
-      price: 1,
+      description: "Soy paper, salmon, crab, avocado, cream cheese, sesame seed", 
+      price: 9,
       image: YariRoll
     },
     { 
       name: "Esmer Roll", 
-      description: "", 
-      price: 1,
+      description: "Soy paper, fried shirmp, spicy tuna, cream cheese, avocado, cucumber, tempura flakes on top", 
+      price: 10,
       image: EsmerRoll
     },
     { 
       name: "Caterpillar Roll", 
-      description: "", 
-      price: 1,
+      description: "Eel, avocado, cucumber, tobiko on top", 
+      price: 10.50,
       image: CaterpillarRoll
     },
     { 
       name: "Dragon Roll", 
-      description: "", 
-      price: 1,
+      description: "crab, cucumber, avocado, eel and tobiko on top", 
+      price: 10.50,
       image: DragonRoll
     },
-   
     //... sushi rolls data
   ],
-
-    
-  
+  FriedRoles: [
+    { 
+      name: "Tierra Roll", 
+      description: "Fried rice, fried shrimp, avocado, cream cheese, spicy crab, spicy mayo", 
+      price: 9,
+      image: TierraRoll
+    },
+    { 
+      name: "Fiji Roll", 
+      description: "Crab, cream cheese, avocado, spicy crab on top", 
+      price: 9,
+      image: FijiRoll
+    },
+    { 
+      name: "Wok Roll", 
+      description: "Soy paper, shrimp tempura, cream cheese, avocado, spicy crab on top", 
+      price: 9,
+      image: 'no image'
+    },
+  ],
+  RicelessRoles: [
+    { 
+      name: "Acapulco Roll", 
+      description: "1 spicy salmon, maki, 3 salmon sashimi, 3 salmon nigiri, cucumber", 
+      price: 7.50,
+      image: AcapulcoRoll
+    },
+    { 
+      name: "Mares Roll", 
+      description: "Salmon, crab, avocado, sesame seeds, sweet vinegar, rolled in cucumber", 
+      price: 7.50,
+      image: MaresRoll
+    },
+    { 
+      name: "Nila Roll", 
+      description: "crab, cucumber, avocado, eel and tobiko on top", 
+      price: 10.50,
+      image: NilaRoll
+    },
+  ],
 };
 
 
