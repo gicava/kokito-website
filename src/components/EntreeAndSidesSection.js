@@ -2,7 +2,7 @@ import React from 'react';
 
 const EntreeAndSidesItem = ({ name, description, image }) => (
     <div className="border rounded-lg p-4 shadow-md">
-      {image && <img src={image} alt={name} className="w-full h-80 object-cover mb-4 rounded-lg"/>}
+      {image && <img src={image} alt={name} className="w-full mb-4 rounded-lg"/>}
       <h3 className="font-bold text-lg">{name}</h3>
       <p className="text-sm mb-2">{description}</p>
     </div>
