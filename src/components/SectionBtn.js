@@ -51,8 +51,8 @@ const SectionBtn =() => {
               Sides
             </Link></li>
           <li className='py-6 text-4xl cursor-pointer'>
-            <Link onClick={handleClick} to='SushiRoles' smooth={true} duration={500}>
-              SushiRoles
+            <Link onClick={handleClick} to='SushiRolls' smooth={true} duration={500}>
+              SushiRolls
             </Link></li>
         </ul>
     </div>

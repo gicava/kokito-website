@@ -13,6 +13,33 @@ import TeriyakiChicken from '../assets/chinesefood/teriyaki chicken.jpg'
 import SweetSourShrimp from '../assets/chinesefood/sweet and sour shrimp.jpg'
 import SesameChicken from '../assets/chinesefood/sesame chicken.JPG'
 import SweetSourChicken from '../assets/chinesefood/sweet and sour chicken.JPG'
+import GeneralTsoShrimp from '../assets/chinesefood/general tso shrimp.jpg'
+import FriedRice from '../assets/chinesefood/fried rice.jpg'
+import SteamedRice from '../assets/chinesefood/steamed rice.jpg'
+import EggNoodle from "../assets/chinesefood/noodles.jpg"
+import MixedVegetables from "../assets/chinesefood/mixed vegetables.JPG"
+import TorchedSalmonRoll from "../assets/sushi-pics/torched salmon roll.JPEG"
+import LobsterRoll from "../assets/sushi-pics/lobster roll.JPEG"
+import MangoHabaneroRoll from "../assets/sushi-pics/mango habanero roll.JPG"
+import KokitoRoll from "../assets/sushi-pics/kokito roll.jpg"
+import MillyRoll from "../assets/sushi-pics/milly roll.jpg"
+import CalamariRoll from "../assets/sushi-pics/calamari-roll.PNG"
+import PhiladelphiaRoll from "../assets/sushi-pics/philadelphia roll.jpg"
+import CeasarinRoll  from "../assets/sushi-pics/cesarin roll.jpg"
+import MasagoRoll  from "../assets/sushi-pics/masago roll.JPEG"
+import SpecialRubiRoll from "../assets/sushi-pics/special rubi roll.JPG"
+import FriedChickenRoll from "../assets/sushi-pics/fried chicken roll.jpg"
+import GuaySpicyRoll  from "../assets/sushi-pics/guay roll.JPEG"
+import CaliforniaRoll from "../assets/sushi-pics/california roll.jpg"
+import FlamingHotRoll from "../assets/sushi-pics/flaming hot roll.JPG"
+import RainbowRoll from "../assets/sushi-pics/rainbow roll.jpg"
+import SenseiRoll from "..//assets/sushi-pics/sensei roll.JPG"
+import SpicyTunaRoll from "../assets/sushi-pics/spicy tuna roll.JPEG"
+import YariRoll from "../assets/sushi-pics/yari roll.JPG"
+import EsmerRoll from "../assets/sushi-pics/esmer roll.JPG"
+import CaterpillarRoll from "../assets/sushi-pics/caterpillar roll.JPG"
+import DragonRoll from "../assets/sushi-pics/dragon roll.JPEG"
+
 //
 
 
@@ -115,17 +142,179 @@ const menuData = {
       name: "General Tso Shrimp", 
       description: "", 
       price: 1,
-      image: 'no image'
+      image: GeneralTsoShrimp
     },
     
     //... entrees data
   ],
   Sides: [
+    { 
+      name: "Fried Rice", 
+      description: "", 
+      price: 1,
+      image: FriedRice
+    },
+    { 
+      name: "Steamed Rice", 
+      description: "", 
+      price: 1,
+      image: SteamedRice
+    },
+    { 
+      name: "Egg Noodles", 
+      description: "", 
+      price: 1,
+      image: EggNoodle
+    },
+    { 
+      name: "Mixed Vegetables", 
+      description: "", 
+      price: 1,
+      image: MixedVegetables
+    },
+
+
     //... sides data
   ],
-  SushiRoles: [
-    //... sushi roles data
+  SushiRolls: [
+    { 
+      name: "Torched Salmon Roll ", 
+      description: "", 
+      price: 1,
+      image: TorchedSalmonRoll
+    },
+    { 
+      name: "Lobster Roll", 
+      description: "", 
+      price: 1,
+      image: LobsterRoll
+    },
+    { 
+      name: "Mango Habanero Roll", 
+      description: "", 
+      price: 1,
+      image: MangoHabaneroRoll
+    },
+    { 
+      name: "Kokito Roll", 
+      description: "", 
+      price: 1,
+      image: KokitoRoll
+    },
+    { 
+      name: "Milly Roll", 
+      description: "", 
+      price: 1,
+      image: MillyRoll
+    },
+    { 
+      name: "Calamari Roll", 
+      description: "", 
+      price: 1,
+      image: CalamariRoll
+    },
+    { 
+      name: "Philadelphia Roll", 
+      description: "", 
+      price: 1,
+      image: PhiladelphiaRoll
+    },
+    { 
+      name: "Ceasarin Roll", 
+      description: "", 
+      price: 1,
+      image: CeasarinRoll
+    },
+    { 
+      name: "Masago Roll", 
+      description: "", 
+      price: 1,
+      image: MasagoRoll
+    },
+    { 
+      name: "Special Rubi Roll", 
+      description: "", 
+      price: 1,
+      image: SpecialRubiRoll
+    },
+    { 
+      name: "Fried Chicken Roll", 
+      description: "", 
+      price: 1,
+      image: FriedChickenRoll
+    },
+    { 
+      name: "Guay Spicy Roll", 
+      description: "", 
+      price: 1,
+      image: GuaySpicyRoll
+    },
+    { 
+      name: "California Roll", 
+      description: "", 
+      price: 1,
+      image: CaliforniaRoll
+    },
+    { 
+      name: "Flaming Hot Roll", 
+      description: "", 
+      price: 1,
+      image: FlamingHotRoll
+    },
+    { 
+      name: "Rainbow Roll", 
+      description: "", 
+      price: 1,
+      image: RainbowRoll
+    },
+    { 
+      name: "Sensei Roll", 
+      description: "", 
+      price: 1,
+      image: SenseiRoll
+    },
+    { 
+      name: "Veggie Roll", 
+      description: "", 
+      price: 1,
+      image: 'no image'
+    },
+    { 
+      name: "Spicy Tuna Roll", 
+      description: "", 
+      price: 1,
+      image: SpicyTunaRoll
+    },
+    { 
+      name: "Yari Roll", 
+      description: "", 
+      price: 1,
+      image: YariRoll
+    },
+    { 
+      name: "Esmer Roll", 
+      description: "", 
+      price: 1,
+      image: EsmerRoll
+    },
+    { 
+      name: "Caterpillar Roll", 
+      description: "", 
+      price: 1,
+      image: CaterpillarRoll
+    },
+    { 
+      name: "Dragon Roll", 
+      description: "", 
+      price: 1,
+      image: DragonRoll
+    },
+   
+    //... sushi rolls data
   ],
+
+    
+  
 };
 
 
