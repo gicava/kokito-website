@@ -18,7 +18,7 @@ const App = () => {
     <div className="w-full h-full mx-auto my-auto bg-gradient-to-r from-white to-gray-400">
       <div className='shadow-lg w-full h-[100px] flex justify-between bg-gray-400 px-3 items-end mx-auto'>
         <div>
-          <img src={Logo} alt='Logo' style={{width: '300px'}} />
+          <img src={Logo} alt='Logo' style={{width: '250px'}} />
         </div>
 
         <nav className="mb-2">
