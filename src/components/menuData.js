@@ -5,20 +5,28 @@ import SourSoup from '../assets/chinesefood/hot and sour soup.jpg'
 import PankoShrimp from '../assets/chinesefood/panko shrimp.png'
 // Salads Imports
 import SpicyCrabSalad from '../assets/Salads/spicy crab salad.JPG'
+import CalamariSalad from '../assets/Kokito/salads/calamari salad.JPG'
+import CrabSunomono from '../assets/Kokito/salads/crab sunomono.jpg'
+import CucumberSunomono from '../assets/Kokito/salads/cucumber sunomono.JPG'
+import SalmonSunomono from '../assets/Kokito/salads/salmon sunomono.jpg'
+import SpicyTunaSalad from '../assets/Kokito/salads/spicty tuna salad.jpg'
+
 // Entrees Imports
-import BroccoliBeef from '../assets/chinesefood/broccoli beef.jpg'
-import PorkRibs from '../assets/chinesefood/pork ribs.jpg'
-import GeneralTsoChicken from '../assets/chinesefood/general tso shrimp.jpg'
-import TeriyakiChicken from '../assets/chinesefood/teriyaki chicken.jpg'
-import SweetSourShrimp from '../assets/chinesefood/sweet and sour shrimp.jpg'
-import SesameChicken from '../assets/chinesefood/sesame chicken.JPG'
-import SweetSourChicken from '../assets/chinesefood/sweet and sour chicken.JPG'
-import GeneralTsoShrimp from '../assets/chinesefood/general tso shrimp.jpg'
-// Sushi Rolls
-import FriedRice from '../assets/chinesefood/fried rice.jpg'
-import SteamedRice from '../assets/chinesefood/steamed rice.jpg'
-import EggNoodle from "../assets/chinesefood/noodles.jpg"
-import MixedVegetables from "../assets/chinesefood/mixed vegetables.JPG"
+import BroccoliBeef from '../assets/Kokito/chinese food/broccoli beef.jpg'
+import PorkRibs from '../assets/Kokito/chinese food/pork ribs.jpg'
+import GeneralTsoChicken from '../assets/Kokito/chinese food/general tso shrimp.jpg'
+import TeriyakiChicken from '../assets/Kokito/chinese food/teriyaki chicken.jpg'
+import SweetSourShrimp from '../assets/Kokito/chinese food/sweet and sour shrimp.jpg'
+import SesameChicken from '../assets/Kokito/chinese food/sesame chicken.JPG'
+import SweetSourChicken from '../assets/Kokito/chinese food/sweet and sour chicken.JPG'
+import GeneralTsoShrimp from '../assets/Kokito/chinese food/general tso shrimp.jpg'
+// sides
+import FriedRice from '../assets/Kokito/chinese food/side of fried rice.jpg'
+import SteamedRice from '../assets/Kokito/chinese food/side of steamed rice.jpg'
+import EggNoodle from "../assets/Kokito/chinese food/side of egg noodles.jpg"
+import MixedVegetables from "../assets/Kokito/chinese food/side of vegetables.jpg"
+//sushi
+
 import TorchedSalmonRoll from "../assets/sushi-pics/torched salmon roll.JPEG"
 import LobsterRoll from "../assets/sushi-pics/lobster roll.JPEG"
 import MangoHabaneroRoll from "../assets/sushi-pics/mango habanero roll.JPG"
@@ -40,9 +48,17 @@ import YariRoll from "../assets/sushi-pics/yari roll.JPG"
 import EsmerRoll from "../assets/sushi-pics/esmer roll.JPG"
 import CaterpillarRoll from "../assets/sushi-pics/caterpillar roll.JPG"
 import DragonRoll from "../assets/sushi-pics/dragon roll.JPEG"
+import RubiRull from '../assets/Kokito/sushi/rubi roll.jpg'
+import SushiTrayone from '../assets/Kokito/sushi/sushi tray 1.JPG'
+import SushiTraytwo from '../assets/Kokito/sushi/sushi tray 2.JPEG'
+import SushiTraythree from '../assets/Kokito/sushi/sushi tray 3.JPEG'
+import VeggieRoll from '..assets/Kokito/sushi/veggie roll.jpg'
+
 // Fried Rolls
 import TierraRoll from '../assets/sushi-pics/tierra roll.JPG'
 import FijiRoll from '../assets/sushi-pics/fiji-roll.png'
+import WokRoll from '../assets/Kokito/sushi/wok roll.jpg'
+
 // Riceless Rolls
 import AcapulcoRoll from '../assets/sushi-pics/acapulco roll.jpg'
 import MaresRoll from '../assets/sushi-pics/mares roll.JPEG'
@@ -83,19 +99,37 @@ const menuData = {
       name: "Cucumber Sunomono", 
       description: "Sweet vinegar, avocado, sesame seed", 
       price: 3,
-      image: 'no image'
+      image: CucumberSunomono
     },
     { 
       name: "Salmon Sunomono", 
       description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
       price: 4,
-      image: 'no image'
+      image: SalmonSunomono
     },
     { 
       name: "Spicy Crab Salad", 
       description: "Crab, cucumber, green onions, spicy mayo, avocado, cream cheese", 
       price: 5.50,
       image: SpicyCrabSalad
+    },
+    { 
+      name: "Calamari Sunomono", 
+      description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
+      price: 4,
+      image: CalamariSalad
+    },
+    { 
+      name: "Crab Sunomono", 
+      description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
+      price: 4,
+      image: CrabSunomono
+    },
+    { 
+      name: "Spicy Tuna Salad", 
+      description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
+      price: 4,
+      image: SpicyTunaSalad
     },
     //... salads data
   ],
@@ -184,6 +218,13 @@ const menuData = {
     //... sides data
   ],
   SushiRolls: [
+    { 
+      name: "Rubi Roll", 
+      description: "", 
+      price: 1,
+      image: RubiRull
+    },
+   
     { 
       name: "Torched Salmon Roll ", 
       description: "Fried crab, cream cheese, avocado, asparagus, tempura flakes, crispy onions, and torched salmon on top", 
@@ -284,7 +325,7 @@ const menuData = {
       name: "Veggie Roll", 
       description: "Soy paper, avocado, cucumber, carrots, cream cheese, green onions, bell pepper, sesame seeds", 
       price: 7,
-      image: 'no image'
+      image: VeggieRoll
     },
     { 
       name: "Spicy Tuna Roll", 
@@ -335,7 +376,7 @@ const menuData = {
       name: "Wok Roll", 
       description: "Soy paper, shrimp tempura, cream cheese, avocado, spicy crab on top", 
       price: 9,
-      image: 'no image'
+      image: WokRoll
     },
   ],
   RicelessRoles: [
@@ -358,6 +399,26 @@ const menuData = {
       image: NilaRoll
     },
   ],
+  SushiTray : [
+    { 
+      name: "Sushi Tray 1", 
+      description: "8 Rolls", 
+      price: 80,
+      image: SushiTrayone
+    },
+    { 
+      name: "Sushi Tray 2", 
+      description: "8 Rolls", 
+      price: 80,
+      image: SushiTraytwo
+    },
+    { 
+      name: "Sushi Tray 3", 
+      description: "8 Rolls", 
+      price: 80,
+      image: SushiTraythree
+    },
+  ]
 };
 
 
