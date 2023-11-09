@@ -52,7 +52,7 @@ import RubiRull from '../assets/Kokito/sushi/rubi roll.jpg'
 import SushiTrayone from '../assets/Kokito/sushi/sushi tray 1.JPG'
 import SushiTraytwo from '../assets/Kokito/sushi/sushi tray 2.JPEG'
 import SushiTraythree from '../assets/Kokito/sushi/sushi tray 3.JPEG'
-import VeggieRoll from '..assets/Kokito/sushi/veggie roll.jpg'
+import VeggieRoll from '../assets/Kokito/sushi/veggie roll.jpg'
 
 // Fried Rolls
 import TierraRoll from '../assets/sushi-pics/tierra roll.JPG'
