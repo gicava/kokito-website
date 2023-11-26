@@ -13,7 +13,7 @@ const SushiRollsSection = ({ title, items = [] }) => {
       <div name={title} className="my-8 px-4">
         <h2 className="text-3xl font-bold mb-4">{title}</h2>
         <div className='mx-auto p-4 flex flex-col justify-center w-full h-full'>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+          <div className="grid sm:grid-cols-1 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
             {items.map((item, index) => (
               <SushiRollsItem key={index} {...item} />
             ))}
