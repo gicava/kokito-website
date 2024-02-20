@@ -63,7 +63,7 @@ const App = () => {
           <MenuSection title="Salads" items={menuData.Salads} />
           <MenuSection title="Meals" items={menuData.Meals} />
           <EntreeAndSidesSection title="Entrees" items={menuData.Entrees} />
-          <EntreeAndSidesSection title="Sides" items={menuData.Sides} />
+          <MenuSection title="Sides" items={menuData.Sides} />
           <MenuSection title="Sushi Rolls" items={menuData.SushiRolls} />
           <MenuSection title="Fried Rolls" items={menuData.FriedRoles} />
           <MenuSection title="Riceless Rolls" items={menuData.RicelessRoles} />

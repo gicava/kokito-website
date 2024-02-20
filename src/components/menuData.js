@@ -11,6 +11,12 @@ import CucumberSunomono from '../assets/Kokito/salads/cucumber sunomono.JPG'
 import SalmonSunomono from '../assets/Kokito/salads/salmon sunomono.jpg'
 import SpicyTunaSalad from '../assets/Kokito/salads/spicty tuna salad.jpg'
 
+// Meal Imports
+import ChineeseBox from '../assets/Kokito/chinese food/chinese box.png'
+import ChineesePlate from '../assets/Kokito/chinese food/chinese plate.png'
+import DeluxChineeseplate from '../assets/Kokito/chinese food/deluxe chinese plate.png'
+import KidsBox from '../assets/Kokito/chinese food/kids box.png'
+
 // Entrees Imports
 import BroccoliBeef from '../assets/Kokito/chinese food/broccoli beef.jpg'
 import PorkRibs from '../assets/Kokito/chinese food/pork ribs.jpg'
@@ -69,27 +75,27 @@ import NilaRoll from '../assets/sushi-pics/nila roll.JPG'
 const menuData = {
   Appetizers: [
     { 
-      name: "Crab Puffs", 
+      name: "x3 Crab Puffs", 
       description: "Crab, cream cheese", 
-      price: 1,
+      price: 3,
       image: CrabPuffs
     },
     { 
       name: "Egg Roll", 
       description: "Classic Egg Roll", 
-      price: 1,
+      price: 1.50,
       image: EggRoll
     },
     { 
       name: "Hot & Sour Soup", 
       description: "Spicy and sour soup containing mushrooms sour things and other spicy spices", 
-      price: 1,
+      price: 4,
       image: SourSoup
     },
     { 
-      name: "Panko Shrimp", 
+      name: "x3 Panko Shrimp", 
       description: "Deep fried breaded shrimp", 
-      price: 1,
+      price: 3,
       image: PankoShrimp
     },
     //... more appetizers
@@ -98,13 +104,13 @@ const menuData = {
     { 
       name: "Cucumber Sunomono", 
       description: "Sweet vinegar, avocado, sesame seed", 
-      price: 3,
+      price: 4.50,
       image: CucumberSunomono
     },
     { 
       name: "Salmon Sunomono", 
       description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
-      price: 4,
+      price: 5.50,
       image: SalmonSunomono
     },
     { 
@@ -116,49 +122,73 @@ const menuData = {
     { 
       name: "Calamari Sunomono", 
       description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
-      price: 4,
+      price: 5.50,
       image: CalamariSalad
     },
     { 
       name: "Crab Sunomono", 
       description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
-      price: 4,
+      price: 5.50,
       image: CrabSunomono
     },
     { 
       name: "Spicy Tuna Salad", 
       description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
-      price: 4,
+      price: 5.50,
       image: SpicyTunaSalad
     },
     //... salads data
   ],
   Meals: [
+    { 
+      name: "Chineese Box", 
+      description: "1 Entree, 1 Side", 
+      price: 7.50,
+      image: ChineeseBox
+    },
+    { 
+      name: "Chineese Plate", 
+      description: "2 Entrees, 1 Side", 
+      price: 8.50,
+      image: ChineesePlate
+    },
+    { 
+      name: " Delux Chineese Plate", 
+      description: "3 Entrees, 1 Side", 
+      price: 10,
+      image: DeluxChineeseplate
+    },
+    { 
+      name: "Kid's Box", 
+      description: "Fried chicken and noodles", 
+      price: 5.50,
+      image: KidsBox
+    },
     //... meals data
   ],
   Entrees: [
     { 
       name: "Broccoli Beef", 
       description: "", 
-      price: 1,
+      price: 0,
       image: BroccoliBeef
     },
     { 
       name: "Pork Ribs", 
       description: "", 
-      price: 1,
+      price: 0,
       image: PorkRibs
     },
     { 
       name: "General Tso Chicken", 
       description: "", 
-      price: 1,
+      price: 0,
       image: GeneralTsoChicken
     },
     { 
       name: "Teriyaki Chicken", 
       description: "", 
-      price: 1,
+      price: 0,
       image: TeriyakiChicken
     },
     { 
@@ -170,13 +200,13 @@ const menuData = {
     { 
       name: "Sesame Chicken", 
       description: "", 
-      price: 1,
+      price: 0,
       image: SesameChicken
     },
     { 
       name: "Sweet & Sour Chicken", 
       description: "", 
-      price: 1,
+      price: 0,
       image: SweetSourChicken
     },
     { 
@@ -192,36 +222,34 @@ const menuData = {
     { 
       name: "Fried Rice", 
       description: "", 
-      price: 1,
+      price: 3.50,
       image: FriedRice
     },
     { 
       name: "Steamed Rice", 
       description: "", 
-      price: 1,
+      price: 3.50,
       image: SteamedRice
     },
     { 
       name: "Egg Noodles", 
       description: "", 
-      price: 1,
+      price: 3.50,
       image: EggNoodle
     },
     { 
       name: "Mixed Vegetables", 
       description: "", 
-      price: 1,
+      price: 3.50,
       image: MixedVegetables
     },
-
-
     //... sides data
   ],
   SushiRolls: [
     { 
       name: "Rubi Roll", 
-      description: "", 
-      price: 1,
+      description: "Soy paper, avocado, fried shrimp, cream cheese, crab on top", 
+      price: 8.50,
       image: RubiRull
     },
    
@@ -276,13 +304,13 @@ const menuData = {
     { 
       name: "Masago Roll", 
       description: "Crab, avocado, cucumber, cream cheese, masago on top", 
-      price: 7.50,
+      price: 7,
       image: MasagoRoll
     },
     { 
       name: "Special Rubi Roll", 
       description: "Fried shrimp, avocado, cream cheese, eel sauce, spicy mayo, crab and tempura flakes on top", 
-      price: 9,
+      price: 8,
       image: SpecialRubiRoll
     },
     { 
@@ -363,26 +391,26 @@ const menuData = {
     { 
       name: "Tierra Roll", 
       description: "Fried rice, fried shrimp, avocado, cream cheese, spicy crab, spicy mayo", 
-      price: 9,
+      price: 8,
       image: TierraRoll
     },
     { 
       name: "Fiji Roll", 
       description: "Crab, cream cheese, avocado, spicy crab on top", 
-      price: 9,
+      price: 8,
       image: FijiRoll
     },
     { 
       name: "Wok Roll", 
       description: "Soy paper, shrimp tempura, cream cheese, avocado, spicy crab on top", 
-      price: 9,
+      price: 8,
       image: WokRoll
     },
   ],
   RicelessRoles: [
     { 
       name: "Acapulco Roll", 
-      description: "1 spicy salmon, maki, 3 salmon sashimi, 3 salmon nigiri, cucumber", 
+      description: "Fried shrimp, cream cheese, avocado, spicy crab, spicy mayo, rolled in cucumber", 
       price: 7.50,
       image: AcapulcoRoll
     },
@@ -394,8 +422,8 @@ const menuData = {
     },
     { 
       name: "Nila Roll", 
-      description: "crab, cucumber, avocado, eel and tobiko on top", 
-      price: 10.50,
+      description: "Spicy tuna, crab, avoxado, lettuce, mango, rolled in cucumber", 
+      price: 7.50,
       image: NilaRoll
     },
   ],

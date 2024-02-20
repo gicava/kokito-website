@@ -1,10 +1,11 @@
 import React from 'react';
 
-const EntreeAndSidesItem = ({ name, description, image }) => (
+const EntreeAndSidesItem = ({ name, description, image, price }) => (
     <div className="border rounded-lg p-4 shadow-md">
       {image && <img src={image} alt={name} className="w-full mb-4 rounded-lg"/>}
       <h3 className="font-bold text-lg">{name}</h3>
       <p className="text-sm mb-2">{description}</p>
+      {price > 0 && <p className="text-right font-medium">${price.toFixed(2)} more</p>}
     </div>
 );
 
