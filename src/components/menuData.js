@@ -76,7 +76,7 @@ const menuData = {
   Appetizers: [
     { 
       name: "x3 Crab Puffs", 
-      description: "Crab, cream cheese", 
+      description: "Crab, cream cheese, green onion", 
       price: 3,
       image: CrabPuffs
     },
@@ -88,7 +88,7 @@ const menuData = {
     },
     { 
       name: "Hot & Sour Soup", 
-      description: "Spicy and sour soup containing mushrooms sour things and other spicy spices", 
+      description: "Tofu, mushroom, green onion, zucchini, carrot, egg, cabbage", 
       price: 4,
       image: SourSoup
     },
@@ -103,40 +103,44 @@ const menuData = {
   Salads: [
     { 
       name: "Cucumber Sunomono", 
-      description: "Sweet vinegar, avocado, sesame seed", 
+      description: "Sweet vinegar, cucumber, avocado, sesame seed", 
       price: 4.50,
       image: CucumberSunomono
     },
     { 
       name: "Salmon Sunomono", 
-      description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
+      description: "Fresh salmon, cucumber, sweet vinegar, avocado, sesame seed", 
       price: 5.50,
       image: SalmonSunomono
     },
     { 
       name: "Spicy Crab Salad", 
-      description: "Crab, cucumber, green onions, spicy mayo, avocado, cream cheese", 
+      description: "Crab, cucumber, sesame seeds, spicy mayo, green onions, spicy mayo, avocado, cream cheese", 
       price: 5.50,
       image: SpicyCrabSalad
     },
     { 
       name: "Calamari Sunomono", 
-      description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
+      description: "Cucumber, calamari, sweet vinegar, avocado sesame seed", 
       price: 5.50,
       image: CalamariSalad
     },
     { 
       name: "Crab Sunomono", 
-      description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
+      description: "Cucumber, crab, sweet vinegar, avocado sesame seed", 
       price: 5.50,
       image: CrabSunomono
     },
     { 
       name: "Spicy Tuna Salad", 
-      description: "Fresh salmon, sweet vinegar, avocado sesame seed", 
+      description: "Cucumber, tuna, carrots, green onion, sweet vinegar, spicy sauce, avocado, sesame seed", 
       price: 5.50,
       image: SpicyTunaSalad
     },
+      {
+        name: "Spicy Salmon Salad",
+        description: "Cucumber, salmon, carrots, green onion, avocado, sesame seeds, spicy sauce"
+      },
     //... salads data
   ],
   Meals: [
@@ -273,7 +277,7 @@ const menuData = {
     },
     { 
       name: "Kokito Roll", 
-      description: "Fried shrimp, cream cheese, avocado, spicy crab, eel sauce, tempura, coconut flakes", 
+      description: "Fried shrimp, cream cheese, avocado, spicy crab, eel sauce, tempura flakes, coconut flakes", 
       price: 9,
       image: KokitoRoll
     },
@@ -285,7 +289,7 @@ const menuData = {
     },
     { 
       name: "Calamari Roll", 
-      description: "Fried shrimp, cream cheese, avocado, cucumber, chopped calamari", 
+      description: "Fried crab, cream cheese, avocado, cucumber, chopped calamari", 
       price: 9,
       image: CalamariRoll
     },
@@ -296,7 +300,7 @@ const menuData = {
       image: PhiladelphiaRoll
     },
     { 
-      name: "Ceasarin Roll", 
+      name: "Cesarin Roll", 
       description: "Crab, avocado, cucumber, cream cheese, spicy salmon, spicy mayo", 
       price: 9,
       image: CeasarinRoll
@@ -304,7 +308,7 @@ const menuData = {
     { 
       name: "Masago Roll", 
       description: "Crab, avocado, cucumber, cream cheese, masago on top", 
-      price: 7,
+      price: 7.50,
       image: MasagoRoll
     },
     { 
@@ -315,12 +319,12 @@ const menuData = {
     },
     { 
       name: "Fried Chicken Roll", 
-      description: "Chicken tempura, cheam cheese, avocado, tempura crunch, spicy mayo", 
+      description: "Chicken tempura, cheam cheese, avocado, tempura flakes, spicy mayo", 
       price: 7,
       image: FriedChickenRoll
     },
     { 
-      name: "Guay Spicy Roll", 
+      name: "Guay Roll", 
       description: "Salmon, tuna, avocado, cucumber, lettuce, carrots, masago, spicy sauce", 
       price: 10,
       image: GuaySpicyRoll
@@ -339,7 +343,7 @@ const menuData = {
     },
     { 
       name: "Rainbow Roll", 
-      description: "Crab, avocado, cucumber, salmon, tuna, masago", 
+      description: "Crab, avocado, cucumber, salmon, tuna, tobiko", 
       price: 10,
       image: RainbowRoll
     },
@@ -351,7 +355,7 @@ const menuData = {
     },
     { 
       name: "Veggie Roll", 
-      description: "Soy paper, avocado, cucumber, carrots, cream cheese, green onions, bell pepper, sesame seeds", 
+      description: "Soy paper, avocado, cucumber, lettuc, carrots, cream cheese, green onions, bell pepper, sesame seeds", 
       price: 7,
       image: VeggieRoll
     },
@@ -369,7 +373,7 @@ const menuData = {
     },
     { 
       name: "Esmer Roll", 
-      description: "Soy paper, fried shirmp, spicy tuna, cream cheese, avocado, cucumber, tempura flakes on top", 
+      description: "Soy paper, fried shrimp, spicy tuna, cream cheese, avocado, cucumber, tempura flakes on top", 
       price: 10,
       image: EsmerRoll
     },
@@ -391,7 +395,7 @@ const menuData = {
     { 
       name: "Tierra Roll", 
       description: "Fried rice, fried shrimp, avocado, cream cheese, spicy crab, spicy mayo", 
-      price: 8,
+      price: 9,
       image: TierraRoll
     },
     { 
@@ -422,7 +426,7 @@ const menuData = {
     },
     { 
       name: "Nila Roll", 
-      description: "Spicy tuna, crab, avoxado, lettuce, mango, rolled in cucumber", 
+      description: "Spicy tuna, crab, avocado, lettuce, mango, rolled in cucumber", 
       price: 7.50,
       image: NilaRoll
     },
