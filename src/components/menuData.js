@@ -59,6 +59,12 @@ import SushiTrayone from '../assets/Kokito/sushi/sushi tray 1.JPG'
 import SushiTraytwo from '../assets/Kokito/sushi/sushi tray 2.JPEG'
 import SushiTraythree from '../assets/Kokito/sushi/sushi tray 3.JPEG'
 import VeggieRoll from '../assets/Kokito/sushi/veggie roll.jpg'
+import NigiriSushi from '../assets/Kokito/sushi/nigiri sushi.jpg'
+import AlaskanSalmonDish from '../assets/Kokito/sushi/alaskan salmon dish.jpg'
+import ToyaTunaDish from '../assets/Kokito/sushi/toya tuna dish.JPEG'
+
+//Bowls
+import ChanokBowl from '../assets/Kokito/sushi/chanok bowl.jpg'
 
 // Fried Rolls
 import TierraRoll from '../assets/sushi-pics/tierra roll.JPG'
@@ -355,7 +361,7 @@ const menuData = {
     },
     { 
       name: "Veggie Roll", 
-      description: "Soy paper, avocado, cucumber, lettuc, carrots, cream cheese, green onions, bell pepper, sesame seeds", 
+      description: "Soy paper, avocado, cucumber, lettuce, carrots, cream cheese, green onions, bell pepper, sesame seeds", 
       price: 7,
       image: VeggieRoll
     },
@@ -430,6 +436,44 @@ const menuData = {
       price: 7.50,
       image: NilaRoll
     },
+  ],
+  SpecialtyItems: [
+    {
+      name: "Nigiri Sushi",
+      description: "Tuna, salmon, tobiko, eel",
+      price: 1.50, 
+      image: NigiriSushi
+    },
+    {
+      name: "Alaskan Salmon Dish",
+      description: "1 spicy salmon maki, 3 salmon sashimi, cucumber",
+      price: 12, 
+      image: AlaskanSalmonDish
+    },
+    {
+      name: "Toya Tuna Dish",
+      description: "1 spicy tuna maki, 3 tuna nigiri, 3 tuna sashimi, cucumber",
+      price: 12,
+      image: ToyaTunaDish
+
+    },
+    {
+      name: "Tuna Taki",
+      description: "10 pieces of shredded tuna, tobiko, green onions, ponzu sauce",
+      price: 13, 
+      image: TunaTaki
+
+    },
+    {
+      name: "Chanok Bowl",
+      description: "Sushi rice, spicy tuna or spicy salmon, avocado, cucumber, pineapple, carrots, green onions, seaweed, sesame seeds",
+      price: 10, 
+      image: ChanokBowl
+    }
+      
+    
+
+    
   ],
   SushiTray : [
     { 
