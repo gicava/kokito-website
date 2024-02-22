@@ -6,7 +6,8 @@ const MenuItem = ({ name, description, price, image }) => {
       {image && <img src={image} alt={name} className="w-full object-cover mb-4 rounded-lg"/>}
       <h3 className="font-bold text-2xl">{name}</h3>
       <p className="text-sm mb-2">{description}</p>
-      {price > 0 && <p className="text-right font-medium">${price.toFixed(2)}</p>}
+      {name !== "Nigiri Sushi"  && <p className="text-right font-medium">${price.toFixed(2)}</p>}
+      {name === "Nigiri Sushi"  && <p className="text-right font-medium">${price.toFixed(2)} each</p>}
     </div>
   );
 };

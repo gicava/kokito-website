@@ -1,11 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.401fde9b.css",
-    "main.js": "/static/js/main.7013e8de.js",
+    "main.js": "/static/js/main.33ce0f8f.js",
+    "static/media/deluxe chinese plate.png": "/static/media/deluxe chinese plate.c9fabe0c65c290200a6f.png",
+    "static/media/chinese plate.png": "/static/media/chinese plate.b46787c6ae3d6387d2ef.png",
     "static/media/calamari-roll.PNG": "/static/media/calamari-roll.e82d1b2607b05d45c25e.PNG",
     "static/media/KokitoFront.jpg": "/static/media/KokitoFront.58bc3b0b9b48b7660151.jpg",
     "static/media/flaming hot roll.JPG": "/static/media/flaming hot roll.d0718ef9ae0f73b9d259.JPG",
+    "static/media/kids box.png": "/static/media/kids box.057f39054870f92aba04.png",
     "static/media/philadelphia roll.jpg": "/static/media/philadelphia roll.684611b57eed450ba820.jpg",
+    "static/media/chinese box.png": "/static/media/chinese box.f9c498b117302ab68b79.png",
     "static/media/california roll.jpg": "/static/media/california roll.51dfa9d63c971902219e.jpg",
     "static/media/panko shrimp.png": "/static/media/panko shrimp.a9ded009358de9b65b60.png",
     "static/media/fiji roll.jpg": "/static/media/fiji roll.9192ab24d529e01381a1.jpg",
@@ -64,10 +68,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.401fde9b.css.map": "/static/css/main.401fde9b.css.map",
-    "main.7013e8de.js.map": "/static/js/main.7013e8de.js.map"
+    "main.33ce0f8f.js.map": "/static/js/main.33ce0f8f.js.map"
   },
   "entrypoints": [
     "static/css/main.401fde9b.css",
-    "static/js/main.7013e8de.js"
+    "static/js/main.33ce0f8f.js"
   ]
 }

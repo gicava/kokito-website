@@ -4,12 +4,13 @@ import EggRoll from '../assets/sushi-pics/eggrolls.jpg'
 import SourSoup from '../assets/chinesefood/hot and sour soup.jpg'
 import PankoShrimp from '../assets/chinesefood/panko shrimp.png'
 // Salads Imports
-import SpicyCrabSalad from '../assets/Salads/spicy crab salad.JPG'
+import SpicyCrabSalad from '../assets/Kokito/salads/spicy crab salad.JPG'
 import CalamariSalad from '../assets/Kokito/salads/calamari salad.JPG'
 import CrabSunomono from '../assets/Kokito/salads/crab sunomono.jpg'
 import CucumberSunomono from '../assets/Kokito/salads/cucumber sunomono.JPG'
 import SalmonSunomono from '../assets/Kokito/salads/salmon sunomono.jpg'
 import SpicyTunaSalad from '../assets/Kokito/salads/spicty tuna salad.jpg'
+import SpicySalmonSalad from '../assets/Kokito/salads/spicy salmon salad.jpg'
 
 // Meal Imports
 import ChineeseBox from '../assets/Kokito/chinese food/chinese box.png'
@@ -20,19 +21,20 @@ import KidsBox from '../assets/Kokito/chinese food/kids box.png'
 // Entrees Imports
 import BroccoliBeef from '../assets/Kokito/chinese food/broccoli beef.jpg'
 import PorkRibs from '../assets/Kokito/chinese food/pork ribs.jpg'
-import GeneralTsoChicken from '../assets/Kokito/chinese food/general tso shrimp.jpg'
+import GeneralTsoChicken from '../assets/Kokito/chinese food/general tso chicken.JPG'
 import TeriyakiChicken from '../assets/Kokito/chinese food/teriyaki chicken.jpg'
 import SweetSourShrimp from '../assets/Kokito/chinese food/sweet and sour shrimp.jpg'
 import SesameChicken from '../assets/Kokito/chinese food/sesame chicken.JPG'
 import SweetSourChicken from '../assets/Kokito/chinese food/sweet and sour chicken.JPG'
 import GeneralTsoShrimp from '../assets/Kokito/chinese food/general tso shrimp.jpg'
+
 // sides
 import FriedRice from '../assets/Kokito/chinese food/side of fried rice.jpg'
 import SteamedRice from '../assets/Kokito/chinese food/side of steamed rice.jpg'
 import EggNoodle from "../assets/Kokito/chinese food/side of egg noodles.jpg"
 import MixedVegetables from "../assets/Kokito/chinese food/side of vegetables.jpg"
-//sushi
 
+// sushi rolls
 import TorchedSalmonRoll from "../assets/sushi-pics/torched salmon roll.JPEG"
 import LobsterRoll from "../assets/sushi-pics/lobster roll.JPEG"
 import MangoHabaneroRoll from "../assets/sushi-pics/mango habanero roll.JPG"
@@ -41,7 +43,7 @@ import MillyRoll from "../assets/sushi-pics/milly roll.jpg"
 import CalamariRoll from "../assets/sushi-pics/calamari-roll.PNG"
 import PhiladelphiaRoll from "../assets/sushi-pics/philadelphia roll.jpg"
 import CeasarinRoll  from "../assets/sushi-pics/cesarin roll.jpg"
-import MasagoRoll  from "../assets/sushi-pics/masago roll.JPEG"
+import MasagoRoll  from "../assets/Kokito/sushi/masago roll.JPEG"
 import SpecialRubiRoll from "../assets/sushi-pics/special rubi roll.JPG"
 import FriedChickenRoll from "../assets/sushi-pics/fried chicken roll.jpg"
 import GuaySpicyRoll  from "../assets/sushi-pics/guay roll.JPEG"
@@ -59,12 +61,13 @@ import SushiTrayone from '../assets/Kokito/sushi/sushi tray 1.JPG'
 import SushiTraytwo from '../assets/Kokito/sushi/sushi tray 2.JPEG'
 import SushiTraythree from '../assets/Kokito/sushi/sushi tray 3.JPEG'
 import VeggieRoll from '../assets/Kokito/sushi/veggie roll.jpg'
-import NigiriSushi from '../assets/Kokito/sushi/nigiri sushi.jpg'
-import AlaskanSalmonDish from '../assets/Kokito/sushi/alaskan salmon dish.jpg'
-import ToyaTunaDish from '../assets/Kokito/sushi/toya tuna dish.JPEG'
 
-//Bowls
-import ChanokBowl from '../assets/Kokito/sushi/chanok bowl.jpg'
+// Specialty
+import NigiriSushi from '../assets/Kokito/specialty/nigiri sushi.jpg'
+import AlaskanSalmonDish from '../assets/Kokito/specialty/alaskan salmon dish.jpg'
+import ToyaTunaDish from '../assets/Kokito/specialty/toya tuna dish.JPEG'
+import TunaTataki from '../assets/Kokito/specialty/tuna tataki.png'
+import ChanokBowl from '../assets/Kokito/specialty/chanok bowl.jpg'
 
 // Fried Rolls
 import TierraRoll from '../assets/sushi-pics/tierra roll.JPG'
@@ -143,10 +146,12 @@ const menuData = {
       price: 5.50,
       image: SpicyTunaSalad
     },
-      {
-        name: "Spicy Salmon Salad",
-        description: "Cucumber, salmon, carrots, green onion, avocado, sesame seeds, spicy sauce"
-      },
+    {
+      name: "Spicy Salmon Salad",
+      description: "Cucumber, salmon, carrots, green onion, avocado, sesame seeds, spicy sauce",
+      price: 5.50,
+      image: SpicySalmonSalad
+    },
     //... salads data
   ],
   Meals: [
@@ -461,7 +466,7 @@ const menuData = {
       name: "Tuna Taki",
       description: "10 pieces of shredded tuna, tobiko, green onions, ponzu sauce",
       price: 13, 
-      image: TunaTaki
+      image: TunaTataki
 
     },
     {
@@ -470,10 +475,6 @@ const menuData = {
       price: 10, 
       image: ChanokBowl
     }
-      
-    
-
-    
   ],
   SushiTray : [
     { 
