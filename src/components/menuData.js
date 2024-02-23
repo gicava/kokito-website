@@ -156,19 +156,19 @@ const menuData = {
   ],
   Meals: [
     { 
-      name: "Chineese Box", 
+      name: "Chinese Box", 
       description: "1 Entree, 1 Side", 
       price: 7.50,
       image: ChineeseBox
     },
     { 
-      name: "Chineese Plate", 
+      name: "Chinese Plate", 
       description: "2 Entrees, 1 Side", 
       price: 8.50,
       image: ChineesePlate
     },
     { 
-      name: " Delux Chineese Plate", 
+      name: " Deluxe Chinese Plate", 
       description: "3 Entrees, 1 Side", 
       price: 10,
       image: DeluxChineeseplate

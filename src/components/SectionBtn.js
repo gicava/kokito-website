@@ -29,38 +29,42 @@ const SectionBtn =() => {
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
         <ul className={!nav ? 'hidden' : 'fixed top-0 left-0 w-full h-screen bg-white flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl cursor-pointer'>
+          <li className='py-4 text-4xl cursor-pointer'>
             <Link onClick={handleClick} to='Appetizers' smooth={true} duration={500}>
               Appetizers
             </Link></li>
-          <li className='py-6 text-4xl cursor-pointer'>
+          <li className='py-4 text-4xl cursor-pointer'>
             <Link onClick={handleClick} to='Salads' smooth={true} duration={500}>
               Salads
             </Link></li>
-          <li className='py-6 text-4xl cursor-pointer'>
+          <li className='py-4 text-4xl cursor-pointer'>
             <Link onClick={handleClick} to='Meals' smooth={true} duration={500}>
               Meals
             </Link>
           </li>
-          <li className='py-6 text-4xl cursor-pointer'>
+          <li className='py-4 text-4xl cursor-pointer'>
             <Link onClick={handleClick} to='Entrees' smooth={true} duration={500}>
               Entrees
             </Link></li>
-          <li className='py-6 text-4xl cursor-pointer'>
+          <li className='py-4 text-4xl cursor-pointer'>
             <Link onClick={handleClick} to='Sides' smooth={true} duration={500}>
               Sides
             </Link></li>
-          <li className='py-6 text-4xl cursor-pointer'>
+          <li className='py-4 text-4xl cursor-pointer'>
             <Link onClick={handleClick} to='Sushi Rolls' smooth={true} duration={500}>
               Sushi Rolls
             </Link></li>
-          <li className='py-6 text-4xl cursor-pointer'>
+          <li className='py-4 text-4xl cursor-pointer'>
             <Link onClick={handleClick} to='Fried Rolls' smooth={true} duration={500}>
               Fried Rolls
             </Link></li>
-          <li className='py-6 text-4xl cursor-pointer'>
+          <li className='py-4 text-4xl cursor-pointer'>
             <Link onClick={handleClick} to='Riceless Rolls' smooth={true} duration={500}>
               Riceless Rolls
+            </Link></li>
+          <li className='py-4 text-4xl cursor-pointer'>
+            <Link onClick={handleClick} to='Specialty' smooth={true} duration={500}>
+              Specialty
             </Link></li>
         </ul>
     </div>
