@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.401fde9b.css",
-    "main.js": "/static/js/main.6745c83e.js",
+    "main.css": "/static/css/main.b1e5d8ff.css",
+    "main.js": "/static/js/main.a2938622.js",
     "static/media/deluxe chinese plate.png": "/static/media/deluxe chinese plate.c9fabe0c65c290200a6f.png",
     "static/media/chinese plate.png": "/static/media/chinese plate.b46787c6ae3d6387d2ef.png",
     "static/media/calamari-roll.PNG": "/static/media/calamari-roll.e82d1b2607b05d45c25e.PNG",
@@ -74,11 +74,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.401fde9b.css.map": "/static/css/main.401fde9b.css.map",
-    "main.6745c83e.js.map": "/static/js/main.6745c83e.js.map"
+    "main.b1e5d8ff.css.map": "/static/css/main.b1e5d8ff.css.map",
+    "main.a2938622.js.map": "/static/js/main.a2938622.js.map"
   },
   "entrypoints": [
-    "static/css/main.401fde9b.css",
-    "static/js/main.6745c83e.js"
+    "static/css/main.b1e5d8ff.css",
+    "static/js/main.a2938622.js"
   ]
 }
