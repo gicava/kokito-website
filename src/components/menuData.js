@@ -61,6 +61,7 @@ import SushiTrayone from '../assets/Kokito/sushi/sushi tray 1.JPG'
 import SushiTraytwo from '../assets/Kokito/sushi/sushi tray 2.JPEG'
 import SushiTraythree from '../assets/Kokito/sushi/sushi tray 3.JPEG'
 import VeggieRoll from '../assets/Kokito/sushi/veggie roll.jpg'
+import TigerRoll from '../assets/Kokito/sushi/tiger-roll.JPEG'
 
 // Specialty
 import NigiriSushi from '../assets/Kokito/specialty/nigiri sushi.jpg'
@@ -156,19 +157,19 @@ const menuData = {
   ],
   Meals: [
     { 
-      name: "Chineese Box", 
+      name: "Chinese Box", 
       description: "1 Entree, 1 Side", 
       price: 7.50,
       image: ChineeseBox
     },
     { 
-      name: "Chineese Plate", 
+      name: "Chinese Plate", 
       description: "2 Entrees, 1 Side", 
       price: 8.50,
       image: ChineesePlate
     },
     { 
-      name: " Delux Chineese Plate", 
+      name: " Deluxe Chinese Plate", 
       description: "3 Entrees, 1 Side", 
       price: 10,
       image: DeluxChineeseplate
@@ -267,6 +268,13 @@ const menuData = {
       price: 8.50,
       image: RubiRull
     },
+
+    {
+      name: "Tiger Roll",
+      description: "fried shrimp, regular shrimp, avocado, cream cheese, asparagus, sweet chili sauce",
+      price : 10.50,
+      image: TigerRoll
+    },
    
     { 
       name: "Torched Salmon Roll ", 
@@ -274,12 +282,14 @@ const menuData = {
       price: 10,
       image: TorchedSalmonRoll
     },
+    
     { 
       name: "Lobster Roll", 
       description: "Fried lobster, spicy crab, masago, avocado, lettuce, carrots", 
       price: 16,
       image: LobsterRoll
     },
+
     { 
       name: "Mango Habanero Roll", 
       description: "Fried shrimp, cream cheese, avocado, spicy mango on top", 

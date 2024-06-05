@@ -63,7 +63,7 @@ const HomePage = ({ featuredRolls }) => {
           </p >
           <div className="mb-3 md:mb-0">
             <h3 className="text-xl font-semibold">Operating Hours</h3>
-            <p>Monday - Friday: 8:00 AM - 7:00 PM</p>
+            <p>Monday - Friday: 11:00 AM - 7:00 PM</p>
             <p>Saturday - Sunday: CLOSED</p>
           </div>
         </div>
