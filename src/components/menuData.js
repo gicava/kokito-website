@@ -92,13 +92,13 @@ const menuData = {
     { 
       name: "Egg Roll", 
       description: "Classic Egg Roll", 
-      price: 1.50,
+      price: 1.75,
       image: EggRoll
     },
     { 
       name: "Hot & Sour Soup", 
       description: "Tofu, mushroom, green onion, zucchini, carrot, egg, cabbage", 
-      price: 4,
+      price: 4.50,
       image: SourSoup
     },
     { 
@@ -113,43 +113,43 @@ const menuData = {
     { 
       name: "Cucumber Sunomono", 
       description: "Sweet vinegar, cucumber, avocado, sesame seed", 
-      price: 4.50,
+      price: 5.50,
       image: CucumberSunomono
     },
     { 
       name: "Salmon Sunomono", 
       description: "Fresh salmon, cucumber, sweet vinegar, avocado, sesame seed", 
-      price: 5.50,
+      price: 6.50,
       image: SalmonSunomono
     },
     { 
       name: "Spicy Crab Salad", 
       description: "Crab, cucumber, sesame seeds, spicy mayo, green onions, spicy mayo, avocado, cream cheese", 
-      price: 5.50,
+      price: 6.50,
       image: SpicyCrabSalad
     },
     { 
       name: "Calamari Sunomono", 
       description: "Cucumber, calamari, sweet vinegar, avocado sesame seed", 
-      price: 5.50,
+      price: 6.50,
       image: CalamariSalad
     },
     { 
       name: "Crab Sunomono", 
       description: "Cucumber, crab, sweet vinegar, avocado sesame seed", 
-      price: 5.50,
+      price: 6.50,
       image: CrabSunomono
     },
     { 
       name: "Spicy Tuna Salad", 
       description: "Cucumber, tuna, carrots, green onion, sweet vinegar, spicy sauce, avocado, sesame seed", 
-      price: 5.50,
+      price: 6.50,
       image: SpicyTunaSalad
     },
     {
       name: "Spicy Salmon Salad",
       description: "Cucumber, salmon, carrots, green onion, avocado, sesame seeds, spicy sauce",
-      price: 5.50,
+      price: 6.50,
       image: SpicySalmonSalad
     },
     //... salads data
@@ -158,25 +158,25 @@ const menuData = {
     { 
       name: "Chinese Box", 
       description: "1 Entree, 1 Side", 
-      price: 7.50,
+      price: 8.50,
       image: ChineeseBox
     },
     { 
       name: "Chinese Plate", 
       description: "2 Entrees, 1 Side", 
-      price: 8.50,
+      price: 9.50,
       image: ChineesePlate
     },
     { 
       name: " Deluxe Chinese Plate", 
       description: "3 Entrees, 1 Side", 
-      price: 10,
+      price: 12,
       image: DeluxChineeseplate
     },
     { 
       name: "Kid's Box", 
       description: "Fried chicken and noodles", 
-      price: 5.50,
+      price: 6.50,
       image: KidsBox
     },
     //... meals data
@@ -264,7 +264,7 @@ const menuData = {
     { 
       name: "Rubi Roll", 
       description: "Soy paper, avocado, fried shrimp, cream cheese, crab on top", 
-      price: 8.50,
+      price: 9,
       image: RubiRull
     },
    
@@ -307,7 +307,7 @@ const menuData = {
     { 
       name: "Philadelphia Roll", 
       description: "Salmon, avocado, cream cheese, cucumber, sesame seed", 
-      price: 6.50,
+      price: 7,
       image: PhiladelphiaRoll
     },
     { 
@@ -343,7 +343,7 @@ const menuData = {
     { 
       name: "California Roll", 
       description: "Crab, avocado, cucumber, sesame seed", 
-      price: 5.50,
+      price: 6,
       image: CaliforniaRoll
     },
     { 
@@ -367,13 +367,13 @@ const menuData = {
     { 
       name: "Veggie Roll", 
       description: "Soy paper, avocado, cucumber, lettuce, carrots, cream cheese, green onions, bell pepper, sesame seeds", 
-      price: 7,
+      price: 8,
       image: VeggieRoll
     },
     { 
       name: "Spicy Tuna Roll", 
       description: "Spicy Tuna, avocado, cucumber, chili powder", 
-      price: 7.50,
+      price: 8,
       image: SpicyTunaRoll
     },
     { 
@@ -452,13 +452,13 @@ const menuData = {
     {
       name: "Alaskan Salmon Dish",
       description: "1 spicy salmon maki, 3 salmon sashimi, cucumber",
-      price: 12, 
+      price: 13, 
       image: AlaskanSalmonDish
     },
     {
       name: "Toya Tuna Dish",
       description: "1 spicy tuna maki, 3 tuna nigiri, 3 tuna sashimi, cucumber",
-      price: 12,
+      price: 13,
       image: ToyaTunaDish
 
     },
