@@ -61,7 +61,7 @@ import SushiTrayone from '../assets/Kokito/sushi/sushi tray 1.JPG'
 import SushiTraytwo from '../assets/Kokito/sushi/sushi tray 2.JPEG'
 import SushiTraythree from '../assets/Kokito/sushi/sushi tray 3.JPEG'
 import VeggieRoll from '../assets/Kokito/sushi/veggie roll.jpg'
-import TigerRoll from '../assets/Kokito/sushi/tiger-roll.JPEG'
+import TigerRoll from '../assets/sushi-pics/tiger-roll.jpeg'
 
 // Specialty
 import NigiriSushi from '../assets/Kokito/specialty/nigiri sushi.jpg'
